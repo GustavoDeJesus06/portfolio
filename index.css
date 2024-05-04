@@ -1,0 +1,87 @@
+body {
+    color: white;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding: 16px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+header img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3.5px solid rgb(196, 113, 204);
+}
+
+
+h1 {
+    color: rgb(196, 113, 204);
+}
+footer img {
+    width: 35px;
+    height: 35px;
+    border-radius: 9.5px;
+    border: 2.5px solid rgb(196, 113, 204);
+    box-shadow: 1px 1px 15px -4px rgb(0, 0, 0);
+    transition: 0.1s;
+    
+}
+
+footer img:hover {
+    border: 2.5px solid rgb(240, 209, 243);
+    width: 45px;
+    height: 45px;
+
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 2px;
+}
+.container {
+    padding: 0px 50px;
+}
+
+.teste {
+    
+    
+    padding: 15px;
+    border: 2.5px solid rgb(31, 30, 34);
+    border-radius: 10px;
+
+    box-shadow: 1px 1px 15px -4px black;
+    transition: 0.3s;
+    background-color: rgb(125, 85, 163);
+    font: bolder;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.teste:hover {
+    color: rgb(29, 27, 27);
+    background-color: rgb(48, 49, 51);
+    border: 2.5px solid rgb(196, 113, 204);
+    color: rgb(196, 113, 204);
+}
+
